@@ -8,7 +8,7 @@ app.use(exp.json())
 const DB = mysql.createConnection({
     user : "root",
     host : "localhost",
-    password : "Sincostan9@",
+    password : "",
     port:3306,
     database: "react-node-mysql"
 })
